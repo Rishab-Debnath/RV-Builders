@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+
 import BG_01 from "../assets/BG_01.jpg";
 import men from "../assets/men.png";
 
@@ -34,14 +34,14 @@ const Header = () => {
       {/* Hero Section with Background Image */}
       <div className="relative w-full h-screen overflow-hidden">
         {/* Background Image */}
-        <img
-          src={BG_01}
-          alt="Background"
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        />
+            <img
+      src={BG_01}
+      alt="Background"
+      className="absolute top-0 left-0 w-full h-full object-cover z-11 filter brightness-50"
+      />
 
-        {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
+      {/* Overlay */}
+        <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-50 z-10"></div>
 
         {/* Header Content */}
         <div className="absolute top-0 left-0 w-full h-full z-20">
