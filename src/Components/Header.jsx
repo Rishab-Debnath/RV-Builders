@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 
 const projectImages = [
-  "/src/assets/project1.jpg",
+  "/public/images/project1.jpg",
   "/src/assets/project2.jpg",
   "/src/assets/project3.jpg",
   "/src/assets/project4.jpg",
