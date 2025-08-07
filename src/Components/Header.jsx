@@ -1,6 +1,16 @@
 
 import BG_01 from "../assets/BG_01.jpg";
 import men from "../assets/men.png";
+import project1 from "../assets/project1.jpg";
+import project2 from "../assets/project2.jpg";
+import project3 from "../assets/project3.jpg";
+import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.jpg";
+import project6 from "../assets/project6.jpg";
+import project7 from "../assets/project7.jpg";
+import project8 from "../assets/project8.jpg";
+import project9 from "../assets/project9.jpg";
+
 
 import {
   FaInstagram,
@@ -10,16 +20,17 @@ import {
 } from "react-icons/fa";
 
 const projectImages = [
-  "/public/images/project1.jpg",
-  "/src/assets/project2.jpg",
-  "/src/assets/project3.jpg",
-  "/src/assets/project4.jpg",
-  "/src/assets/project5.jpg",
-  "/src/assets/project6.jpg",
-  "/src/assets/project7.jpg",
-  "/src/assets/project8.jpg",
-  "/src/assets/project9.jpg",
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
 ];
+
 
 const Header = () => {
   const scrollToContact = () => {
